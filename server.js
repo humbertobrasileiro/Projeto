@@ -33,6 +33,7 @@ async function salvarEmJson(novoItem) {
 
     // 3. Escreve o array atualizado de volta no arquivo, com formatação
     await fs.writeFile(DATA_FILE_PATH, JSON.stringify(dados, null, 2), "utf-8");
+    exibirResultados([novoItem], true);
   } catch (error) {
     console.error("❌ Erro ao salvar o item no arquivo JSON:", error);
   }
@@ -76,7 +77,6 @@ app.post("/api/buscar-ia", async (req, res) => {
     // Se a IA retornou um resultado válido, salva no data.json antes de responder
     if (!iaResult.erro) {
       await salvarEmJson(iaResult);
-      exibirResultados([iaResult], true);
     }
 
     // 4. Se tudo correr bem, retorna o resultado

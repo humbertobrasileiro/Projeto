@@ -236,5 +236,65 @@
     "descricao": "C é uma linguagem de programação imperativa de propósito geral, desenvolvida por Dennis Ritchie nos Laboratórios Bell. É conhecida por sua eficiência, controle de baixo nível e portabilidade, sendo amplamente utilizada para software de sistema, sistemas operacionais e aplicações embarcadas. Sua sintaxe influenciou muitas outras linguagens populares, incluindo C++, Java e C#.",
     "link": "https://www.iso.org",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+  },
+  {
+    "nome": "VClipping",
+    "ano": 2012,
+    "descricao": "VClipping é uma tecnologia e serviço de monitoramento de conteúdo audiovisual, oferecido pela empresa Comunique-se. Ele permite acompanhar e gerenciar menções a marcas, pessoas ou temas em transmissões de TV e rádio em tempo real. A plataforma transcreve o áudio, indexa o conteúdo e envia alertas personalizados para análise de mídia e gestão de reputação.",
+    "link": "https://www.comunique-se.com.br/monitoramento-de-tv-radio/"
+  },
+  {
+    "nome": "Regex",
+    "ano": 1956,
+    "descricao": "Regex, ou Expressões Regulares, é uma sequência de caracteres que forma um padrão de busca. É amplamente utilizada em computação para correspondência de padrões, pesquisa e manipulação de strings de texto. Através de uma sintaxe específica, incluindo caracteres literais e metacaracteres, permite definir padrões complexos para encontrar, substituir ou validar texto.",
+    "link": "https://www.regular-expressions.info/"
+  },
+  {
+    "nome": "Lisp",
+    "ano": 1958,
+    "descricao": "Lisp (LISt Processing) é uma das linguagens de programação de alto nível mais antigas e influentes, criada por John McCarthy. É conhecida por sua sintaxe mínima baseada em parênteses (S-expressions) e seu forte suporte a metaprogramação e manipulação simbólica. Lisp teve um impacto profundo no campo da inteligência artificial e continua sendo usada em pesquisa, desenvolvimento e ensino.",
+    "link": "https://lisp.org/"
+  },
+  {
+    "nome": "Prototipagem",
+    "ano": 1970,
+    "descricao": "Prototipagem é o processo de criar uma versão inicial e experimental de um produto ou sistema para testar ideias e coletar feedback dos usuários. Ela permite visualizar e interagir com o design em estágios iniciais, ajudando a identificar problemas e refinar requisitos antes do desenvolvimento completo. Este método iterativo visa reduzir riscos, custos e tempo de mercado, garantindo que o produto final atenda às necessidades.",
+    "link": "https://www.nngroup.com/articles/prototyping-basics/"
+  },
+  {
+    "nome": "Prototipagem",
+    "ano": 1970,
+    "descricao": "Prototipagem é o processo de criar versões preliminares de um produto, sistema ou serviço para testar ideias, coletar feedback e iterar o design. Essa técnica ajuda a visualizar soluções, identificar falhas e refinar requisitos antes do desenvolvimento final. Abrange desde esboços de baixa fidelidade até modelos interativos complexos, otimizando o ciclo de design e garantindo que o produto atenda às necessidades do usuário.",
+    "link": "https://www.interaction-design.org/literature/topics/prototyping"
+  },
+  {
+    "nome": "VBA (Visual Basic for Applications)",
+    "ano": 1993,
+    "descricao": "VBA é uma implementação da linguagem de programação orientada a eventos Visual Basic 6 da Microsoft, incorporada à maioria das aplicações do Microsoft Office. Ele permite que os usuários automatizem tarefas, estendam funcionalidades e criem soluções personalizadas diretamente dentro de programas como Excel, Word e Access. Embora ainda seja amplamente utilizado para automação de escritório, novas tecnologias de automação foram introduzidas pela Microsoft.",
+    "link": "https://learn.microsoft.com/en-us/office/vba/"
+  },
+  {
+    "nome": "Scratch",
+    "ano": 2007,
+    "descricao": "Scratch é uma linguagem de programação visual gratuita desenvolvida pelo MIT Media Lab. Ela permite que crianças e iniciantes criem suas próprias histórias interativas, jogos e animações usando blocos de código arrastáveis e soltáveis. É uma plataforma educacional amplamente utilizada para introduzir conceitos de programação de forma intuitiva e divertida.",
+    "link": "https://scratch.mit.edu/"
+  },
+  {
+    "nome": "Assembly",
+    "ano": 1949,
+    "descricao": "Assembly é uma linguagem de programação de baixo nível que utiliza mnemônicos para representar instruções de código de máquina diretamente. Ela permite controle preciso sobre o hardware e é usada para programação de sistemas, drivers de dispositivo e otimização de desempenho crítico. Cada arquitetura de processador possui sua própria linguagem Assembly única, exigindo um 'assembler' específico para traduzir o código para binário.",
+    "link": "https://en.wikipedia.org/wiki/Assembly_language"
+  },
+  {
+    "nome": "Linguagem Assembly",
+    "ano": 1949,
+    "descricao": "Assembly é uma linguagem de programação de baixo nível que representa o código de máquina de forma simbólica, tornando-o mais legível para humanos. Cada instrução Assembly corresponde geralmente a uma única instrução de máquina específica para uma arquitetura de processador. É utilizada para programação de sistemas, drivers, otimização de desempenho e interações diretas com hardware, onde o controle preciso é essencial.",
+    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly"
+  },
+  {
+    "nome": "Linguagem Assembly",
+    "ano": 1951,
+    "descricao": "Assembly é uma linguagem de programação de baixo nível, que possui uma correspondência muito forte entre as instruções da linguagem e as instruções de código de máquina de uma arquitetura específica. Ela permite o controle direto do hardware, otimização de performance e é essencial para o desenvolvimento de sistemas operacionais, drivers de dispositivo e software embarcado. Apesar de sua complexidade, é fundamental para entender como os computadores funcionam em seu nível mais básico.",
+    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly"
   }
 ]
