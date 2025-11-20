@@ -157,6 +157,51 @@ main {
   /* Calcula a altura para preencher o espaço restante da tela */
 }
 
+/* Calcula a altura para preencher o espaço restante da tela */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+article {
+  background: none;
+  /* Sem cor de fundo */
+  /* Borda inferior */
+  padding-bottom: 1.5rem;
+  /* Espaçamento interno inferior */
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+article:hover {
+  /* Aumenta ligeiramente o tamanho ao passar o mouse */
+  cursor: pointer;
+  /* Muda o cursor para uma mão */
+}
+
+.card-logo-container {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-color: #fff;
+  /* Fundo branco para logos com transparência */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+}
+
 article {
   background: none;
   /* Sem cor de fundo */

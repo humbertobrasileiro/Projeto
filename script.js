@@ -50,13 +50,21 @@ function exibirResultados(resultados, geradoPorIA = false) {
     const card = document.createElement("article");
     card.className = "card";
 
+    // Estrutura do card com logo e conteúdo de texto
     card.innerHTML = `
-      <h2>${item.nome} ${
+      ${
+        item.logo
+          ? `<div class="card-logo-container"><img src="${item.logo}" alt="Logo de ${item.nome}" class="card-logo"></div>`
+          : ""
+      }
+      <div class="card-text-content">
+        <h2>${item.nome} ${
       geradoPorIA ? '<span class="ai-badge">(Gerado por IA)</span>' : ""
     }</h2>
-      <p><strong>Ano de criação:</strong> ${item.ano || "Não informado"}</p>
-      <p>${item.descricao}</p>
-      <a href="${item.link || "#"}" target="_blank">Saiba mais...</a>
+        <p><strong>Ano de criação:</strong> ${item.ano || "Não informado"}</p>
+        <p>${item.descricao}</p>
+        <a href="${item.link || "#"}" target="_blank">Saiba mais...</a>
+      </div>
     `;
     cardContainer.appendChild(card);
   });
