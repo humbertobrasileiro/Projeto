@@ -207,7 +207,7 @@
     "ano": 1991,
     "descricao": "Visual Basic é uma linguagem de programação orientada a eventos e um ambiente de desenvolvimento integrado (IDE) da Microsoft. Derivado do BASIC, ele permitia o desenvolvimento rápido de aplicações com interface gráfica (GUI). Foi amplamente utilizado para criar software de desktop para Windows.",
     "link": "https://learn.microsoft.com/en-us/dotnet/visual-basic/",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Visual_Basic_6.0_logo.svg/1200px-Visual_Basic_6.0_logo.svg.png"
+    "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
   },
   {
     "nome": "JSON",
@@ -221,7 +221,7 @@
     "ano": 1995,
     "descricao": "Scrum é um framework ágil para gerenciar projetos complexos, frequentemente utilizado no desenvolvimento de software. Ele promove a colaboração, a auto-organização e a entrega iterativa e incremental de valor. É caracterizado por ciclos de trabalho de duração fixa chamados sprints, papéis definidos e eventos específicos.",
     "link": "https://www.scrumguides.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Scrum_task_board.jpg"
+    "logo": "https://scrumguides.org/images/logo-scrumguides3.png"
   },
   {
     "nome": "DataFlex",
@@ -256,7 +256,7 @@
     "ano": 1958,
     "descricao": "Lisp (LISt Processor) é uma família de linguagens de programação com uma longa história, criada em 1958 por John McCarthy. É notável por sua notação prefixa totalmente parentetizada (S-expressions) e por ter sido pioneira em conceitos como coleta de lixo e metaprogramação. É frequentemente empregada em pesquisa de inteligência artificial e computação simbólica.",
     "link": "https://lisp-lang.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lisp_logo.svg"
+    "logo": "https://lisp-lang.org/assets/img/logo/blue.png"
   },
   {
     "nome": "VBA (Visual Basic for Applications)",
