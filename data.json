@@ -277,6 +277,34 @@
     "ano": 2007,
     "descricao": "Android é um sistema operacional móvel desenvolvido pelo Google, baseado em uma versão modificada do kernel Linux. É projetado principalmente para dispositivos móveis com tela sensível ao toque, como smartphones e tablets, mas também alimenta TVs, smartwatches e carros. Sua natureza de código aberto e vasto ecossistema de aplicativos o tornam o sistema operacional móvel mais usado globalmente.",
     "link": "https://www.android.com/",
-    "logo": "https://www.android.com/static/images/opengraph/android-logo.png"
+    "logo": "https://www.gstatic.com/marketing-cms/assets/images/1a/9f/7bba006e49de847508df3a4a7b93/andriod-full-body.webp=s48-fcrop64=1,00000000ffffffff-rw"
+  },
+  {
+    "nome": "Next.js",
+    "ano": 2016,
+    "descricao": "Next.js é um framework React de código aberto que permite aos desenvolvedores construir aplicações web full-stack de alto desempenho. Ele suporta renderização no lado do servidor (SSR), geração de site estático (SSG), e rotas de API, otimizando tanto a experiência do usuário quanto o SEO. Desenvolvido pela Vercel, simplifica a criação de aplicações escaláveis e rápidas.",
+    "link": "https://nextjs.org/",
+    "logo": "https://assets.vercel.com/image/upload/v1607554382/nextjs/nextjs-logo.png"
+  },
+  {
+    "nome": "Firebase",
+    "ano": 2011,
+    "descricao": "Firebase é uma plataforma de desenvolvimento de aplicativos móveis e web fornecida pelo Google. Ela oferece um conjunto de serviços backend como autenticação, bancos de dados em tempo real, armazenamento em nuvem e hospedagem, facilitando a construção de aplicativos robustos. Com Firebase, desenvolvedores podem criar e escalar apps rapidamente sem gerenciar infraestrutura de servidor.",
+    "link": "https://firebase.google.com/",
+    "logo": "https://www.gstatic.com/marketing-cms/assets/images/a9/1b/3f13894548fa8d367af8a56b5634/firebase.webp=s48-fcrop64=1,00000000ffffffff-rw"
+  },
+  {
+    "nome": "Flutter",
+    "ano": 2017,
+    "descricao": "Flutter é um kit de desenvolvimento de software (SDK) de UI de código aberto criado pelo Google. Ele permite construir aplicativos compilados nativamente para dispositivos móveis, web e desktop a partir de uma única base de código. Utiliza a linguagem de programação Dart e é conhecido por seu rápido desenvolvimento e interfaces de usuário expressivas.",
+    "link": "https://flutter.dev/",
+    "logo": "https://www.gstatic.com/marketing-cms/assets/images/66/f3/e377e4304ed58a8e3d386a3067bd/flutter.webp=s48-fcrop64=1,00000000ffffffff-rw"
+  },
+  {
+    "nome": "Gemini",
+    "ano": 2023,
+    "descricao": "Gemini é uma família de modelos de inteligência artificial multimodal desenvolvidos pelo Google AI. Ele foi projetado para compreender e operar através de diferentes tipos de informação, incluindo texto, código, áudio, imagem e vídeo. Gemini alimenta vários produtos Google e está disponível para desenvolvedores e empresas através do Vertex AI.",
+    "link": "https://deepmind.google/technologies/gemini/",
+    "logo": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/google-gemini-924j3051o55m98g4rwehj.png/google-gemini-fjwerd7ldxwt4c010vyoh.png?_a=DATAg1AAZAA0"
   }
 ]
