@@ -306,5 +306,19 @@
     "descricao": "Gemini é uma família de modelos de inteligência artificial multimodal desenvolvidos pelo Google AI. Ele foi projetado para compreender e operar através de diferentes tipos de informação, incluindo texto, código, áudio, imagem e vídeo. Gemini alimenta vários produtos Google e está disponível para desenvolvedores e empresas através do Vertex AI.",
     "link": "https://deepmind.google/technologies/gemini/",
     "logo": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/google-gemini-924j3051o55m98g4rwehj.png/google-gemini-fjwerd7ldxwt4c010vyoh.png?_a=DATAg1AAZAA0"
+  },
+  {
+    "nome": "ChatGPT",
+    "ano": 2022,
+    "descricao": "ChatGPT é um chatbot desenvolvido pela OpenAI, baseado em modelos de linguagem grandes (LLMs). Ele é treinado para conversar e realizar tarefas como responder perguntas, escrever textos, traduzir e resumir informações. Sua interface conversacional o tornou acessível e popular para uma vasta gama de aplicações.",
+    "link": "https://openai.com/chatgpt",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+  },
+  {
+    "nome": "Power BI",
+    "ano": 2015,
+    "descricao": "Power BI é uma suíte de ferramentas de business intelligence da Microsoft que permite aos usuários conectar-se a diversas fontes de dados, transformá-los e criar visualizações interativas e relatórios dinâmicos. Ele oferece recursos robustos para análise de dados e compartilhamento de insights, facilitando a tomada de decisões. É amplamente utilizado para construir dashboards e análises self-service em organizações de todos os tamanhos.",
+    "link": "https://powerbi.microsoft.com/",
+    "logo": "https://powerbi.microsoft.com/pictures/shared/social/social-default-image.png"
   }
 ]
