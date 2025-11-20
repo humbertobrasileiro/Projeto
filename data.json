@@ -18,7 +18,7 @@
     "ano": 1995,
     "descricao": "Java é uma linguagem de programação orientada a objetos, conhecida por sua portabilidade e robustez. É amplamente utilizada em desenvolvimento de aplicativos corporativos, aplicativos móveis Android e sistemas embarcados.",
     "link": "https://www.java.com/pt-BR/",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+    "logo": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg"
   },
   {
     "nome": "C#",
@@ -102,7 +102,7 @@
     "ano": 1964,
     "descricao": "BASIC (Beginners' All-purpose Symbolic Instruction Code) é uma família de linguagens de programação de alto nível, projetada para ser fácil de usar. Foi criada em 1964 por John G. Kemeny e Thomas E. Kurtz na Dartmouth College. Tornou-se amplamente popular na década de 1970 e 1980, especialmente em computadores domésticos, por sua simplicidade e acessibilidade.",
     "link": "https://pt.wikipedia.org/wiki/BASIC",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/BASIC_logo.svg"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BASIC_logo.svg/512px-BASIC_logo.svg.png"
   },
   {
     "nome": "Pascal",
@@ -151,7 +151,7 @@
     "ano": 1959,
     "descricao": "COBOL (Common Business-Oriented Language) é uma linguagem de programação de alto nível, projetada para aplicações de negócios e processamento de dados. É conhecida por sua sintaxe verbosa, semelhante ao inglês, e forte divisão de dados. Apesar de sua idade, continua em uso em sistemas legados, especialmente em instituições financeiras e governamentais.",
     "link": "https://www.iso.org/standard/60724.html",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cobol-logo.svg/1280px-Cobol-logo.svg.png"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/COBOL_logo.svg/1280px-COBOL_logo.svg.png"
   },
   {
     "nome": ".NET",
@@ -193,7 +193,7 @@
     "ano": 1940,
     "descricao": "Kanban é um sistema visual para gerenciar e otimizar o fluxo de trabalho. Ele ajuda a visualizar o trabalho, limitar o trabalho em progresso (WIP) e maximizar a eficiência. Originado no Sistema Toyota de Produção, é amplamente utilizado em metodologias lean e ágeis.",
     "link": "https://kanban.com",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kanban-board.svg/1920px-Kanban-board.svg.png"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kanban_board_example.svg/1920px-Kanban_board_example.svg.png"
   },
   {
     "nome": "Spring Framework",
@@ -238,63 +238,45 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
   },
   {
-    "nome": "VClipping",
-    "ano": 2012,
-    "descricao": "VClipping é uma tecnologia e serviço de monitoramento de conteúdo audiovisual, oferecido pela empresa Comunique-se. Ele permite acompanhar e gerenciar menções a marcas, pessoas ou temas em transmissões de TV e rádio em tempo real. A plataforma transcreve o áudio, indexa o conteúdo e envia alertas personalizados para análise de mídia e gestão de reputação.",
-    "link": "https://www.comunique-se.com.br/monitoramento-de-tv-radio/"
+    "nome": "VCLIPPING",
+    "ano": 2002,
+    "descricao": "VCLIPPING é uma empresa brasileira especializada em monitoramento de mídias e clipping. A plataforma acompanha e coleta notícias de veículos impressos, rádio, TV, internet e redes sociais, fornecendo insights valiosos sobre a exposição da marca. Seu objetivo é auxiliar empresas e profissionais na gestão de sua imagem e comunicação estratégica através da análise de conteúdo.",
+    "link": "https://www.vclipping.com.br/",
+    "logo": "https://www.vclipping.com.br/wp-content/uploads/2021/08/logo-vclipping.png"
   },
   {
     "nome": "Regex",
     "ano": 1956,
-    "descricao": "Regex, ou Expressões Regulares, é uma sequência de caracteres que forma um padrão de busca. É amplamente utilizada em computação para correspondência de padrões, pesquisa e manipulação de strings de texto. Através de uma sintaxe específica, incluindo caracteres literais e metacaracteres, permite definir padrões complexos para encontrar, substituir ou validar texto.",
-    "link": "https://www.regular-expressions.info/"
+    "descricao": "Regular Expressions (Regex) são uma poderosa sequência de caracteres que define um padrão de busca. São amplamente utilizadas em computação para correspondência de strings, operações de busca e substituição, e validação de dados em diversas linguagens de programação e editores de texto. Regex oferece uma maneira flexível e eficiente de processar e manipular texto com base em padrões complexos.",
+    "link": "https://www.regular-expressions.info/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/RegEx_icon.svg/512px-RegEx_icon.svg.png"
   },
   {
     "nome": "Lisp",
     "ano": 1958,
-    "descricao": "Lisp (LISt Processing) é uma das linguagens de programação de alto nível mais antigas e influentes, criada por John McCarthy. É conhecida por sua sintaxe mínima baseada em parênteses (S-expressions) e seu forte suporte a metaprogramação e manipulação simbólica. Lisp teve um impacto profundo no campo da inteligência artificial e continua sendo usada em pesquisa, desenvolvimento e ensino.",
-    "link": "https://lisp.org/"
-  },
-  {
-    "nome": "Prototipagem",
-    "ano": 1970,
-    "descricao": "Prototipagem é o processo de criar uma versão inicial e experimental de um produto ou sistema para testar ideias e coletar feedback dos usuários. Ela permite visualizar e interagir com o design em estágios iniciais, ajudando a identificar problemas e refinar requisitos antes do desenvolvimento completo. Este método iterativo visa reduzir riscos, custos e tempo de mercado, garantindo que o produto final atenda às necessidades.",
-    "link": "https://www.nngroup.com/articles/prototyping-basics/"
-  },
-  {
-    "nome": "Prototipagem",
-    "ano": 1970,
-    "descricao": "Prototipagem é o processo de criar versões preliminares de um produto, sistema ou serviço para testar ideias, coletar feedback e iterar o design. Essa técnica ajuda a visualizar soluções, identificar falhas e refinar requisitos antes do desenvolvimento final. Abrange desde esboços de baixa fidelidade até modelos interativos complexos, otimizando o ciclo de design e garantindo que o produto atenda às necessidades do usuário.",
-    "link": "https://www.interaction-design.org/literature/topics/prototyping"
+    "descricao": "Lisp (LISt Processor) é uma família de linguagens de programação com uma longa história, criada em 1958 por John McCarthy. É notável por sua notação prefixa totalmente parentetizada (S-expressions) e por ter sido pioneira em conceitos como coleta de lixo e metaprogramação. É frequentemente empregada em pesquisa de inteligência artificial e computação simbólica.",
+    "link": "https://lisp-lang.org/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lisp_logo.svg"
   },
   {
     "nome": "VBA (Visual Basic for Applications)",
-    "ano": 1993,
-    "descricao": "VBA é uma implementação da linguagem de programação orientada a eventos Visual Basic 6 da Microsoft, incorporada à maioria das aplicações do Microsoft Office. Ele permite que os usuários automatizem tarefas, estendam funcionalidades e criem soluções personalizadas diretamente dentro de programas como Excel, Word e Access. Embora ainda seja amplamente utilizado para automação de escritório, novas tecnologias de automação foram introduzidas pela Microsoft.",
-    "link": "https://learn.microsoft.com/en-us/office/vba/"
-  },
-  {
-    "nome": "Scratch",
-    "ano": 2007,
-    "descricao": "Scratch é uma linguagem de programação visual gratuita desenvolvida pelo MIT Media Lab. Ela permite que crianças e iniciantes criem suas próprias histórias interativas, jogos e animações usando blocos de código arrastáveis e soltáveis. É uma plataforma educacional amplamente utilizada para introduzir conceitos de programação de forma intuitiva e divertida.",
-    "link": "https://scratch.mit.edu/"
-  },
-  {
-    "nome": "Assembly",
-    "ano": 1949,
-    "descricao": "Assembly é uma linguagem de programação de baixo nível que utiliza mnemônicos para representar instruções de código de máquina diretamente. Ela permite controle preciso sobre o hardware e é usada para programação de sistemas, drivers de dispositivo e otimização de desempenho crítico. Cada arquitetura de processador possui sua própria linguagem Assembly única, exigindo um 'assembler' específico para traduzir o código para binário.",
-    "link": "https://en.wikipedia.org/wiki/Assembly_language"
-  },
-  {
-    "nome": "Linguagem Assembly",
-    "ano": 1949,
-    "descricao": "Assembly é uma linguagem de programação de baixo nível que representa o código de máquina de forma simbólica, tornando-o mais legível para humanos. Cada instrução Assembly corresponde geralmente a uma única instrução de máquina específica para uma arquitetura de processador. É utilizada para programação de sistemas, drivers, otimização de desempenho e interações diretas com hardware, onde o controle preciso é essencial.",
-    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly"
+    "ano": 1995,
+    "descricao": "VBA é uma implementação da linguagem de programação Visual Basic 6 da Microsoft, orientada a eventos. Está integrada na maioria das aplicações do Microsoft Office e de outros softwares, permitindo aos utilizadores automatizar tarefas, criar funções personalizadas e estender a funcionalidade através de macros. É amplamente utilizado para personalização e automação dentro de programas como Excel, Word e Access, melhorando a produtividade.",
+    "link": "https://learn.microsoft.com/pt-br/office/vba/library-reference/contents/visual-basic-for-applications-language-reference",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png"
   },
   {
     "nome": "Linguagem Assembly",
     "ano": 1951,
-    "descricao": "Assembly é uma linguagem de programação de baixo nível, que possui uma correspondência muito forte entre as instruções da linguagem e as instruções de código de máquina de uma arquitetura específica. Ela permite o controle direto do hardware, otimização de performance e é essencial para o desenvolvimento de sistemas operacionais, drivers de dispositivo e software embarcado. Apesar de sua complexidade, é fundamental para entender como os computadores funcionam em seu nível mais básico.",
-    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly"
+    "descricao": "Linguagem de programação de baixo nível que possui uma forte correspondência entre as instruções do programa e as instruções de máquina da arquitetura do computador. É usada para programar diretamente o hardware, oferecendo controle detalhado e alta performance. Sua aplicação é comum em sistemas operacionais, drivers de dispositivo e otimização crítica de código.",
+    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Assembly_Syntax.svg/512px-Assembly_Syntax.svg.png"
+  },
+  {
+    "nome": "Android",
+    "ano": 2007,
+    "descricao": "Android é um sistema operacional móvel desenvolvido pelo Google, baseado em uma versão modificada do kernel Linux. É projetado principalmente para dispositivos móveis com tela sensível ao toque, como smartphones e tablets, mas também alimenta TVs, smartwatches e carros. Sua natureza de código aberto e vasto ecossistema de aplicativos o tornam o sistema operacional móvel mais usado globalmente.",
+    "link": "https://www.android.com/",
+    "logo": "https://www.android.com/static/images/opengraph/android-logo.png"
   }
 ]

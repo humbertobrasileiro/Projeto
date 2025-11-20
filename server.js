@@ -48,7 +48,7 @@ const ai = new GoogleGenAI({
 app.post("/api/buscar-ia", async (req, res) => {
   const termo = req.body.termo || "linguagem de programação";
   // O prompt completo é importante para garantir a formatação JSON
-  const prompt = `Consulte sobre a tecnologia chamada "${termo}". Retorne sua resposta EXATAMENTE no formato JSON contendo as chaves "nome", "ano" (o ano de criação como um número), "descricao" (uma descrição concisa de até 3 frases) e "link" (o link para o site oficial). Se não souber ou não for uma tecnologia, retorne um JSON com a chave "erro".`;
+  const prompt = `Consulte sobre a tecnologia chamada "${termo}". Retorne sua resposta EXATAMENTE no formato JSON contendo as chaves "nome", "ano" (o ano de criação como um número), "descricao" (uma descrição concisa de até 3 frases) e "link" (o link para o site oficial), traga também a logo da tecnologia. Se não souber ou não for uma tecnologia, retorne um JSON com a chave "erro".`;
 
   try {
     const aiResponse = await ai.models.generateContent({
