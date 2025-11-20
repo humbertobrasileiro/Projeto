@@ -1,5 +1,4 @@
 {
-  // ...outras configurações que você possa ter...
   "liveServer.settings.ignoreFiles": [
     ".vscode/**",
     "**/*.scss",

@@ -142,5 +142,65 @@
     "ano": 1995,
     "descricao": "Delphi é um ambiente de desenvolvimento integrado (IDE) para o desenvolvimento rápido de aplicações (RAD). Ele utiliza sua própria dialeto da linguagem Object Pascal para criar aplicações nativas para desktop, mobile, web e console. É conhecido por seus frameworks VCL e FireMonkey (FMX), que permitem o desenvolvimento multiplataforma.",
     "link": "https://www.embarcadero.com/products/delphi"
+  },
+  {
+    "nome": "Linux",
+    "ano": 1991,
+    "descricao": "Linux é uma família de sistemas operacionais de código aberto, tipo Unix, baseada no kernel Linux. Lançado sob a licença GPL, é amplamente utilizado em servidores, supercomputadores, sistemas embarcados e dispositivos móveis como Android, além de desktops. Sua natureza colaborativa e modularidade o tornam uma escolha versátil e poderosa para diversas aplicações.",
+    "link": "https://www.linux.org/"
+  },
+  {
+    "nome": "QUEEN (Qualitative Reasoning Environment for Engineering)",
+    "ano": 1991,
+    "descricao": "QUEEN é um ambiente de software para simulação qualitativa e raciocínio desenvolvido no Grupo de Raciocínio Qualitativo da Northwestern University. Ele auxilia engenheiros e cientistas na análise de sistemas complexos usando modelos qualitativos, focando na compreensão das relações causais e comportamentos. O projeto busca oferecer um framework flexível e extensível para o desenvolvimento e aplicação desses modelos.",
+    "link": "https://www.qrg.northwestern.edu/"
+  },
+  {
+    "nome": "Inteligência Artificial",
+    "ano": 1956,
+    "descricao": "Inteligência Artificial (IA) é um campo da ciência da computação dedicado à criação de máquinas que podem pensar, aprender e agir como humanos. Ela abrange diversas tecnologias como aprendizado de máquina, redes neurais e processamento de linguagem natural. O objetivo é permitir que sistemas realizem tarefas que normalmente exigiriam inteligência humana.",
+    "link": "https://www.aaai.org/"
+  },
+  {
+    "nome": "Kanban",
+    "ano": 1940,
+    "descricao": "Kanban é um sistema visual para gerenciar e otimizar o fluxo de trabalho. Ele ajuda a visualizar o trabalho, limitar o trabalho em progresso (WIP) e maximizar a eficiência. Originado no Sistema Toyota de Produção, é amplamente utilizado em metodologias lean e ágeis.",
+    "link": "https://kanban.com"
+  },
+  {
+    "nome": "Spring Framework",
+    "ano": 2002,
+    "descricao": "Spring Framework é um framework open-source para a plataforma Java. Ele oferece uma infraestrutura abrangente para desenvolver aplicações empresariais robustas, simplificando o desenvolvimento através de recursos como injeção de dependência e programação orientada a aspectos. O objetivo é tornar o desenvolvimento Java EE mais fácil e produtivo.",
+    "link": "https://spring.io/"
+  },
+  {
+    "nome": "Visual Basic",
+    "ano": 1991,
+    "descricao": "Visual Basic é uma linguagem de programação orientada a eventos e um ambiente de desenvolvimento integrado (IDE) da Microsoft. Derivado do BASIC, ele permitia o desenvolvimento rápido de aplicações com interface gráfica (GUI). Foi amplamente utilizado para criar software de desktop para Windows.",
+    "link": "https://learn.microsoft.com/en-us/dotnet/visual-basic/"
+  },
+  {
+    "nome": "JSON",
+    "ano": 2001,
+    "descricao": "JSON (JavaScript Object Notation) é um formato leve de intercâmbio de dados. É fácil para humanos lerem e escreverem, e fácil para máquinas analisarem e gerarem. Baseia-se em um subconjunto da linguagem de programação JavaScript, mas é completamente independente da linguagem e é amplamente utilizado para transmitir dados entre um servidor e um aplicativo web, ou entre diferentes serviços.",
+    "link": "https://www.json.org/"
+  },
+  {
+    "nome": "Scrum",
+    "ano": 1995,
+    "descricao": "Scrum é um framework ágil para gerenciar projetos complexos, frequentemente utilizado no desenvolvimento de software. Ele promove a colaboração, a auto-organização e a entrega iterativa e incremental de valor. É caracterizado por ciclos de trabalho de duração fixa chamados sprints, papéis definidos e eventos específicos.",
+    "link": "https://www.scrumguides.org/"
+  },
+  {
+    "nome": "DataFlex",
+    "ano": 1981,
+    "descricao": "DataFlex é um ambiente de desenvolvimento rápido de aplicações (RAD) e uma linguagem de programação orientada a objetos. Ele fornece uma solução completa para a criação e implantação de aplicações desktop Windows, web e móveis. É conhecido pela sua capacidade de integrar dados e lógica de negócio de forma eficiente.",
+    "link": "https://www.dataflex.com/"
+  },
+  {
+    "nome": "Linguagem C",
+    "ano": 1972,
+    "descricao": "C é uma linguagem de programação imperativa de propósito geral, desenvolvida por Dennis Ritchie nos Laboratórios Bell. É conhecida por sua eficiência, controle de baixo nível e portabilidade, sendo amplamente utilizada para software de sistema, sistemas operacionais e aplicações embarcadas. Sua sintaxe influenciou muitas outras linguagens populares, incluindo C++, Java e C#.",
+    "link": "https://www.iso.org"
   }
 ]

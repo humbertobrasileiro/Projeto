@@ -76,6 +76,7 @@ app.post("/api/buscar-ia", async (req, res) => {
     // Se a IA retornou um resultado válido, salva no data.json antes de responder
     if (!iaResult.erro) {
       await salvarEmJson(iaResult);
+      exibirResultados([iaResult], true);
     }
 
     // 4. Se tudo correr bem, retorna o resultado

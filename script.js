@@ -27,7 +27,6 @@ async function iniciarBusca() {
       // Se não encontrou, busca com a IA
       cardContainer.innerHTML = `<p>Não encontrei "${termoBusca}" em minha base. Buscando com a IA...</p>`;
       await buscarComIA(termoBusca);
-      iniciarBusca(termoBusca); // Re-inicia a busca para incluir o novo item salvo
     }
   } catch (error) {
     console.error("Erro ao buscar ou processar os dados:", error);
