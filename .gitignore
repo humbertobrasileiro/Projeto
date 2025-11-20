@@ -1,0 +1,7 @@
+# Ignorar dependências do Node
+.history
+.lh
+node_modules
+
+# Ignorar arquivo de variáveis de ambiente
+.env
