@@ -16,6 +16,12 @@ async function iniciarBusca() {
     const dados = await response.json();
 
     // Filtra os dados com base no termo de busca
+    if (termoBusca === "*") {
+      // Se o termo for "*", exibe todos os itens
+      exibirResultados(dados);
+      return;
+    }
+
     const resultados = dados.filter((item) =>
       item.nome.toLowerCase().includes(termoBusca.toLowerCase())
     );
