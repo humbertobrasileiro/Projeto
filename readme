@@ -1,0 +1,73 @@
+# 🚀 Linha do Tempo Interativa de Tecnologia
+
+Este projeto é uma linha do tempo interativa que exibe informações sobre diversas tecnologias, linguagens de programação, frameworks e metodologias de desenvolvimento. Foi desenvolvido como parte da **Imersão Dev da Alura em parceria com o Google**.
+
+A aplicação web apresenta os itens em formato de cards, permitindo que o usuário explore e aprenda sobre a história e a evolução da tecnologia de forma visual e organizada. O conteúdo descritivo de cada item foi gerado com o auxílio da IA do Google, o **Gemini**.
+
+## ✨ Funcionalidades
+
+- **Visualização em Cards**: Cada tecnologia é apresentada em um card com seu nome, ano de criação, logo, descrição e um link para a página oficial.
+- **Busca Dinâmica**: O usuário pode pesquisar por uma tecnologia específica e a lista de cards é filtrada em tempo real.
+- **Carregamento de Dados Externo**: As informações são carregadas a partir de um arquivo `data.json`, facilitando a manutenção e a adição de novos itens.
+- **Design Simples e Intuitivo**: A interface foi projetada para ser limpa e fácil de usar.
+
+## 🛠️ Como Funciona
+
+O projeto é composto por uma estrutura frontend clássica (HTML, CSS e JavaScript) que consome um arquivo de dados JSON.
+
+1. **`index.html`**: Estrutura principal da página, contendo o campo de busca e a área onde os cards são exibidos.
+2. **`style.css`**: Arquivo de estilização que define a aparência dos cards, o layout da página e a responsividade.
+3. **`script.js`**: Cérebro da aplicação. Este script é responsável por:
+
+- Fazer a requisição (`fetch`) para o arquivo `data.json` e carregar os dados.
+- Renderizar dinamicamente os cards na tela para cada item do JSON.
+- Implementar a funcionalidade de busca, filtrando os cards com base no texto digitado pelo usuário.
+
+4. **`data.json`**: Arquivo que atua como um "banco de dados" para o projeto. Ele contém um array de objetos, onde cada objeto representa uma tecnologia.
+
+### Estrutura do `data.json`
+
+Cada objeto no arquivo `data.json` segue a seguinte estrutura:
+
+```json
+{
+  "nome": "Nome da Tecnologia",
+  "ano": 2024,
+  "descricao": "Uma breve descrição sobre a tecnologia, seu propósito e impacto.",
+  "link": "https://link.oficial/",
+  "logo": "https://url.da.imagem/logo.png"
+}
+```
+
+- `nome`: O nome oficial da tecnologia (string).
+- `ano`: O ano de criação ou lançamento (number).
+- `descricao`: Um texto explicativo gerado via Gemini (string).
+- `link`: URL para o site oficial ou documentação (string).
+- `logo`: URL de uma imagem do logo da tecnologia (string).
+
+## 🚀 Como Executar o Projeto
+
+Como este projeto utiliza `fetch` para carregar o arquivo JSON local, ele precisa ser servido por um servidor web para funcionar corretamente devido às políticas de segurança dos navegadores (CORS).
+
+1. **Clone o repositório (se estiver no Git):**
+
+    ```bash
+    git clone <url-do-repositorio>
+    cd <nome-do-repositorio>
+    ```
+
+2. **Use um servidor local:**
+    - Se você tem o **Node.js** instalado, pode usar o `live-server`:
+
+      ```bash
+      npm install -g live-server
+      live-server
+      ```
+
+    - Se você usa **VS Code**, pode instalar a extensão Live Server e clicar em "Go Live" no canto inferior direito da janela.
+
+3. Abra o navegador no endereço fornecido pelo servidor (geralmente `http://127.0.0.1:5500`).
+
+## 🤝 Como Contribuir
+
+Para adicionar uma nova tecnologia, basta adicionar um novo objeto ao array no arquivo `data.json`, seguindo a estrutura já definida. Certifique-se de preencher todos os campos corretamente.
