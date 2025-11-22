@@ -13,7 +13,7 @@
   /* Cor secundária (cinza claro) */
   --tertiary-color: #9aa0a6;
   /* Cor terciária (cinza médio) */
-  --bg-color: #202124;
+  --bg-color: #152452;
   /* Cor de fundo (cinza escuro) */
 }
 
@@ -157,30 +157,49 @@ main {
   /* Calcula a altura para preencher o espaço restante da tela */
 }
 
-/* Calcula a altura para preencher o espaço restante da tela */
-}
-
 .card-container {
   display: flex;
-  flex-direction: column;
+  /* Habilita o Flexbox */
+  flex-wrap: wrap;
+  /* Permite que os cards quebrem para a próxima linha */
   gap: 1.5rem;
+  /* Espaçamento entre os cards */
+  justify-content: center;
+  /* Centraliza os cards no container */
+  padding: 1rem;
 }
 
-article {
-  background: none;
-  /* Sem cor de fundo */
-  /* Borda inferior */
-  padding-bottom: 1.5rem;
-  /* Espaçamento interno inferior */
+article.card {
+  background-color: #2d2e30;
+  /* Cor de fundo para o card */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  padding: 1.5rem;
+  /* Espaçamento interno */
+  box-shadow: 0 4px 8px rgba(171, 199, 16, 0.575);
+  /* Sombra para dar profundidade */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Transição suave */
   display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
+  /* Flexbox para o conteúdo interno do card */
+  flex-direction: column;
+  /* Organiza o conteúdo interno em coluna */
+  flex-basis: 320px;
+  /* Largura base de cada card */
+  flex-grow: 1;
+  /* Permite que o card cresça se houver espaço */
+  max-width: 400px;
+  /* Largura máxima */
 }
 
-article:hover {
-  /* Aumenta ligeiramente o tamanho ao passar o mouse */
+article.card:hover {
+  background-color: #6d6255;
+
+  transform: translateY(-5px);
+  /* Efeito de elevação ao passar o mouse */
   cursor: pointer;
   /* Muda o cursor para uma mão */
+  box-shadow: 0 8px 16px rgba(202, 13, 13, 0.788);
 }
 
 .card-logo-container {
@@ -188,8 +207,15 @@ article:hover {
   width: 80px;
   height: 80px;
   display: flex;
+  /* Mantém o logo centralizado */
   align-items: center;
+  /* Mantém o logo centralizado */
   justify-content: center;
+  /* Mantém o logo centralizado */
+  margin-bottom: 1rem;
+  /* Espaço abaixo do logo */
+  align-self: center;
+  /* Centraliza o container do logo no card */
 }
 
 .card-logo {
@@ -202,35 +228,7 @@ article:hover {
   /* Bordas arredondadas */
 }
 
-article {
-  background: none;
-  /* Sem cor de fundo */
-  border-radius: 0;
-  /* Sem bordas arredondadas */
-  padding: 0;
-  /* Remove o padding */
-  padding: 0 1rem;
-  /* Espaçamento interno nos lados */
-  margin-bottom: 1.25rem;
-  /* Margem inferior */
-  box-shadow: none;
-  /* Sem sombra */
-  transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
-  /* Transição suave */
-  border-bottom: 1px solid var(--bg-color);
-  /* Borda inferior */
-  padding-bottom: 1.5rem;
-  /* Espaçamento interno inferior */
-}
-
-article:hover {
-  transform: scale(1.01);
-  /* Aumenta ligeiramente o tamanho ao passar o mouse */
-  cursor: pointer;
-  /* Muda o cursor para uma mão */
-}
-
-article h2 {
+article.card h2 {
   margin-top: 0;
   /* Remove a margem superior */
   font-weight: 600;
@@ -247,7 +245,7 @@ article h2 {
   /* Cor do texto */
 }
 
-article p {
+article.card p {
   margin: 0.5rem 0;
   /* Margem superior e inferior */
   line-height: 1.6;
@@ -260,23 +258,32 @@ article p {
   /* Cor do texto */
 }
 
-article p strong {
+.card-text-content {
+  flex-grow: 1;
+  /* Faz esta área ocupar o espaço disponível, empurrando o link para baixo */
+}
+
+article.card p strong {
   color: var(--tertiary-color);
   /* Cor do texto em negrito */
   font-weight: 400;
   /* Peso da fonte */
 }
 
-article a {
+article.card a {
   color: var(--primary-color);
   /* Cor do link */
   text-decoration: none;
   /* Remove o sublinhado padrão */
   font-weight: 200;
   /* Peso da fonte */
+  margin-top: auto;
+  /* Empurra o link para o final do card */
+  padding-top: 1rem;
+  /* Espaçamento acima do link */
 }
 
-article a:hover {
+article.card a:hover {
   text-decoration: underline;
   /* Adiciona sublinhado ao passar o mouse */
 }

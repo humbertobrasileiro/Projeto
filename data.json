@@ -1,324 +1,121 @@
 [
   {
-    "nome": "JavaScript",
-    "ano": 1995,
-    "descricao": "JavaScript é uma linguagem de programação leve, interpretada e baseada em objetos. É amplamente utilizada para desenvolvimento web, permitindo a criação de páginas interativas e dinâmicas.",
-    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-  },
-  {
-    "nome": "Python",
-    "ano": 1991,
-    "descricao": "Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. É conhecida por sua sintaxe clara e legibilidade, sendo amplamente utilizada em desenvolvimento web, ciência de dados, automação e muito mais.",
-    "link": "https://docs.python.org/pt-br/3.14/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-  },
-  {
-    "nome": "Java",
-    "ano": 1995,
-    "descricao": "Java é uma linguagem de programação orientada a objetos, conhecida por sua portabilidade e robustez. É amplamente utilizada em desenvolvimento de aplicativos corporativos, aplicativos móveis Android e sistemas embarcados.",
-    "link": "https://www.java.com/pt-BR/",
-    "logo": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg"
-  },
-  {
-    "nome": "C#",
-    "ano": 2000,
-    "descricao": "C# é uma linguagem de programação desenvolvida pela Microsoft, orientada a objetos e baseada em componentes. É amplamente utilizada para desenvolvimento de aplicativos Windows, jogos com Unity e aplicações web com ASP.NET.",
-    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg"
-  },
-  {
-    "nome": "Ruby",
-    "ano": 1995,
-    "descricao": "Ruby é uma linguagem de programação dinâmica e de alto nível, conhecida por sua simplicidade e produtividade. É amplamente utilizada no desenvolvimento web, especialmente com o framework Ruby on Rails.",
-    "link": "https://www.ruby-lang.org/pt/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg"
-  },
-  {
-    "nome": "Go",
-    "ano": 2009,
-    "descricao": "Go, também conhecida como Golang, é uma linguagem de programação desenvolvida pelo Google. É conhecida por sua eficiência, simplicidade e suporte a concorrência, sendo amplamente utilizada em desenvolvimento de sistemas distribuídos e aplicações em nuvem.",
-    "link": "https://golang.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
-  },
-  {
-    "nome": "TypeScript",
-    "ano": 2012,
-    "descricao": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional à linguagem. Desenvolvido pela Microsoft, é amplamente utilizado para desenvolvimento de aplicações web escaláveis e robustas.",
-    "link": "https://www.typescriptlang.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
-  },
-  {
-    "nome": "Swift",
-    "ano": 2014,
-    "descricao": "Swift é uma linguagem de programação desenvolvida pela Apple para o desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS. Conhecida por sua performance e segurança, Swift é projetada para ser fácil de aprender e usar.",
-    "link": "https://swift.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg"
-  },
-  {
-    "nome": "Kotlin",
-    "ano": 2011,
-    "descricao": "Kotlin é uma linguagem de programação moderna e concisa que roda na JVM (Java Virtual Machine). Desenvolvida pela JetBrains, é oficialmente suportada pelo Google para desenvolvimento de aplicativos Android, oferecendo interoperabilidade total com Java.",
-    "link": "https://kotlinlang.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg"
-  },
-  {
-    "nome": "PHP",
-    "ano": 1995,
-    "descricao": "PHP é uma linguagem de programação de código aberto amplamente utilizada para desenvolvimento web. É especialmente conhecida por sua capacidade de criar páginas dinâmicas e interativas, sendo a base de muitos sistemas de gerenciamento de conteúdo populares, como WordPress.",
-    "link": "https://www.php.net/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
-  },
-  {
-    "nome": "Rust",
-    "ano": 2015,
-    "descricao": "Rust é uma linguagem de programação de sistemas que se concentra em segurança, velocidade e concorrência. É conhecida por seu sistema de propriedade que garante a segurança de memória sem a necessidade de um coletor de lixo, sendo ideal para software de alto desempenho e sistemas embarcados.",
-    "link": "https://www.rust-lang.org/pt-BR",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg"
-  },
-  {
-    "nome": "Angular",
-    "ano": 2016,
-    "descricao": "Angular é uma plataforma e framework de código aberto baseado em TypeScript, liderado pela equipe do Google. É utilizado para construir aplicações web de página única (SPAs) complexas e escaláveis, com uma arquitetura baseada em componentes.",
-    "link": "https://angular.dev/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
-  },
-  {
-    "nome": "Vue.js",
-    "ano": 2014,
-    "descricao": "Vue.js é um framework JavaScript progressivo e de código aberto para a construção de interfaces de usuário e aplicações de página única. Conhecido por sua simplicidade, flexibilidade e excelente documentação, Vue.js é projetado para ser adotado de forma incremental.",
-    "link": "https://vuejs.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
-  },
-  {
-    "nome": "C++",
-    "ano": 1983,
-    "descricao": "C++ é uma linguagem de programação de propósito geral e de alto desempenho. Ela é uma extensão da linguagem C, incorporando paradigmas de programação orientada a objetos, como classes e polimorfismo. É amplamente utilizada em desenvolvimento de sistemas, jogos, aplicações embarcadas e software de alto desempenho.",
-    "link": "https://www.stroustrup.com/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-  },
-  {
-    "nome": "BASIC",
-    "ano": 1964,
-    "descricao": "BASIC (Beginners' All-purpose Symbolic Instruction Code) é uma família de linguagens de programação de alto nível, projetada para ser fácil de usar. Foi criada em 1964 por John G. Kemeny e Thomas E. Kurtz na Dartmouth College. Tornou-se amplamente popular na década de 1970 e 1980, especialmente em computadores domésticos, por sua simplicidade e acessibilidade.",
-    "link": "https://pt.wikipedia.org/wiki/BASIC",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BASIC_logo.svg/512px-BASIC_logo.svg.png"
-  },
-  {
-    "nome": "Pascal",
-    "ano": 1970,
-    "descricao": "Pascal é uma linguagem de programação imperativa e procedural, desenvolvida por Niklaus Wirth no final dos anos 1960. Conhecida por sua tipagem forte e estrutura clara, foi amplamente usada para ensino de programação e desenvolvimento de software. Sua popularidade contribuiu para a adoção de conceitos de programação estruturada.",
-    "link": "https://www.freepascal.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pascal_logo.svg/1200px-Pascal_logo.svg.png"
-  },
-  {
-    "nome": "Prolog",
-    "ano": 1972,
-    "descricao": "Prolog (Programming in Logic) é uma linguagem de programação lógica e declarativa, criada no início dos anos 70. Baseada na lógica de primeira ordem, é amplamente utilizada em inteligência artificial, processamento de linguagem natural e sistemas especialistas. Programas em Prolog consistem em uma base de conhecimento de fatos e regras, resolvendo problemas através de consultas, unificação e retrocesso.",
-    "link": "https://www.swi-prolog.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SWI-Prolog-Logo.svg/1200px-SWI-Prolog-Logo.svg.png"
-  },
-  {
-    "nome": "Fortran",
-    "ano": 1957,
-    "descricao": "Fortran é uma linguagem de programação imperativa, compilada e de propósito geral, desenvolvida originalmente pela IBM nos anos 1950. Criada para aplicações científicas e de engenharia, ela é otimizada para computação numérica e alto desempenho. Continua sendo amplamente utilizada em supercomputação, modelagem climática e simulações complexas.",
-    "link": "https://fortran-lang.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg"
-  },
-  {
-    "nome": "Agile",
-    "ano": 2001,
-    "descricao": "Agile é uma metodologia de desenvolvimento de software que prioriza a entrega incremental, colaboração do cliente e adaptabilidade às mudanças. Baseia-se em ciclos curtos (sprints) e feedback contínuo para desenvolver produtos de forma flexível e eficiente. Seu objetivo é gerar valor rapidamente e responder prontamente às necessidades do mercado.",
-    "link": "https://agilemanifesto.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Agile-Manifesto-Logo.png"
-  },
-  {
     "nome": "React",
     "ano": 2013,
-    "descricao": "React é uma biblioteca JavaScript de código aberto e front-end para construir interfaces de usuário baseadas em componentes. Desenvolvida pelo Facebook (agora Meta), é amplamente utilizada para criar aplicações de página única, móveis e renderizadas no servidor. Permite aos desenvolvedores criar interfaces de usuário interativas e eficientes com um modelo de programação declarativo.",
+    "descricao": "React é uma biblioteca JavaScript declarativa para construir interfaces de usuário, especialmente para aplicações de página única. Ela permite que desenvolvedores criem componentes de UI reutilizáveis e gerenciem o estado de forma eficiente usando um Virtual DOM. Mantida pelo Meta e por uma comunidade de código aberto, é amplamente utilizada no desenvolvimento web e móvel.",
     "link": "https://react.dev/",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
   },
   {
-    "nome": "Clipper chip",
-    "ano": 1993,
-    "descricao": "O Clipper chip foi um dispositivo de criptografia proposto pelo governo dos EUA no início dos anos 1990. Ele incorporava um sistema de 'key escrow' (custódia de chaves), que permitiria às autoridades acessarem comunicações criptografadas sob certas condições. A proposta gerou forte oposição devido a preocupações com a privacidade e, eventualmente, não foi amplamente adotada.",
-    "link": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.185.pdf",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Clipper_chip.jpg"
-  },
-  {
-    "nome": "Cobol",
-    "ano": 1959,
-    "descricao": "COBOL (Common Business-Oriented Language) é uma linguagem de programação de alto nível, projetada para aplicações de negócios e processamento de dados. É conhecida por sua sintaxe verbosa, semelhante ao inglês, e forte divisão de dados. Apesar de sua idade, continua em uso em sistemas legados, especialmente em instituições financeiras e governamentais.",
-    "link": "https://www.iso.org/standard/60724.html",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/COBOL_logo.svg/1280px-COBOL_logo.svg.png"
-  },
-  {
-    "nome": ".NET",
-    "ano": 2002,
-    "descricao": "O .NET é uma plataforma de desenvolvimento gratuita e de código aberto criada pela Microsoft, usada para construir uma vasta gama de aplicações. Ele permite que desenvolvedores criem aplicativos web, móveis, desktop, jogos, serviços em nuvem e IoT, utilizando linguagens como C#, F# e Visual Basic. É compatível com múltiplos sistemas operacionais, incluindo Windows, Linux e macOS.",
-    "link": "https://dotnet.microsoft.com/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Official_dot_NET_logo.svg"
-  },
-  {
     "nome": "Delphi",
     "ano": 1995,
-    "descricao": "Delphi é um ambiente de desenvolvimento integrado (IDE) para o desenvolvimento rápido de aplicações (RAD). Ele utiliza sua própria dialeto da linguagem Object Pascal para criar aplicações nativas para desktop, mobile, web e console. É conhecido por seus frameworks VCL e FireMonkey (FMX), que permitem o desenvolvimento multiplataforma.",
+    "descricao": "Delphi é um ambiente de desenvolvimento integrado (IDE) para desenvolvimento rápido de aplicações (RAD), que utiliza a linguagem Object Pascal. Permite a criação de aplicações nativas para desktop, mobile, web e IoT a partir de uma única base de código. É conhecido por seu compilador de alta performance e seu design visual baseado em componentes.",
     "link": "https://www.embarcadero.com/products/delphi",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Embarcadero_Delphi_11_logo.svg/1200px-Embarcadero_Delphi_11_logo.svg.png"
+    "logo": "https://d2ohlsp9gwqc7h.cloudfront.net/images/logos/EMBT_Primary_Logo_Black_2025_Idera.webp"
   },
   {
-    "nome": "Linux",
-    "ano": 1991,
-    "descricao": "Linux é uma família de sistemas operacionais de código aberto, tipo Unix, baseada no kernel Linux. Lançado sob a licença GPL, é amplamente utilizado em servidores, supercomputadores, sistemas embarcados e dispositivos móveis como Android, além de desktops. Sua natureza colaborativa e modularidade o tornam uma escolha versátil e poderosa para diversas aplicações.",
-    "link": "https://www.linux.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    "nome": "Vue.js",
+    "ano": 2014,
+    "descricao": "Vue.js é um framework JavaScript progressivo de código aberto para a construção de interfaces de usuário e aplicações de página única. Ele é projetado para ser adaptável e pode ser facilmente integrado a projetos existentes ou usado para desenvolver aplicações complexas. Sua arquitetura baseada em componentes e sistema de reatividade o tornam uma escolha popular para desenvolvimento front-end.",
+    "link": "https://vuejs.org/",
+    "logo": "https://vuejs.org/images/logo.png"
   },
   {
-    "nome": "QUEEN (Qualitative Reasoning Environment for Engineering)",
-    "ano": 1991,
-    "descricao": "QUEEN é um ambiente de software para simulação qualitativa e raciocínio desenvolvido no Grupo de Raciocínio Qualitativo da Northwestern University. Ele auxilia engenheiros e cientistas na análise de sistemas complexos usando modelos qualitativos, focando na compreensão das relações causais e comportamentos. O projeto busca oferecer um framework flexível e extensível para o desenvolvimento e aplicação desses modelos.",
-    "link": "https://www.qrg.northwestern.edu/",
-    "logo": "https://www.qrg.northwestern.edu/qrg-logo-small.gif"
+    "nome": "Angular",
+    "ano": 2016,
+    "descricao": "Angular é uma plataforma e um framework para construir aplicações web e móveis SPA (Single Page Application) usando HTML e TypeScript. Desenvolvido pelo Google, ele oferece uma abordagem estruturada com componentes, serviços e módulos, facilitando o desenvolvimento e a manutenção de aplicações complexas. É amplamente utilizado para criar interfaces de usuário dinâmicas e de alto desempenho.",
+    "link": "https://angular.io/",
+    "logo": "https://angular.io/assets/images/logos/angular/angular.png"
   },
   {
     "nome": "Inteligência Artificial",
     "ano": 1956,
-    "descricao": "Inteligência Artificial (IA) é um campo da ciência da computação dedicado à criação de máquinas que podem pensar, aprender e agir como humanos. Ela abrange diversas tecnologias como aprendizado de máquina, redes neurais e processamento de linguagem natural. O objetivo é permitir que sistemas realizem tarefas que normalmente exigiriam inteligência humana.",
+    "descricao": "Inteligência Artificial (IA) é um campo da ciência da computação que se dedica à criação de máquinas capazes de raciocinar, aprender e agir de forma autônoma. Ela permite que sistemas imitem habilidades cognitivas humanas, como resolução de problemas e reconhecimento de padrões. O objetivo é desenvolver tecnologia que possa executar tarefas complexas de maneira inteligente.",
     "link": "https://www.aaai.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/Artificial-intelligence-logo.svg"
+    "logo": null
   },
   {
-    "nome": "Kanban",
-    "ano": 1940,
-    "descricao": "Kanban é um sistema visual para gerenciar e otimizar o fluxo de trabalho. Ele ajuda a visualizar o trabalho, limitar o trabalho em progresso (WIP) e maximizar a eficiência. Originado no Sistema Toyota de Produção, é amplamente utilizado em metodologias lean e ágeis.",
-    "link": "https://kanban.com",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kanban_board_example.svg/1920px-Kanban_board_example.svg.png"
+    "nome": "Apache Flex",
+    "ano": 2004,
+    "descricao": "Apache Flex é um framework de código aberto para construir e manter Rich Internet Applications (RIAs) baseadas na plataforma Adobe Flash ou Adobe AIR. Ele permite aos desenvolvedores criar aplicações web, desktop e mobile altamente interativas usando MXML e ActionScript 3. A tecnologia teve sua origem como Adobe Flex em 2004, tornando-se mais tarde um projeto Top-Level da Apache Software Foundation.",
+    "link": "http://flex.apache.org/",
+    "logo": "http://flex.apache.org/images/logo_small_apache_flex.png"
   },
   {
-    "nome": "Spring Framework",
-    "ano": 2002,
-    "descricao": "Spring Framework é um framework open-source para a plataforma Java. Ele oferece uma infraestrutura abrangente para desenvolver aplicações empresariais robustas, simplificando o desenvolvimento através de recursos como injeção de dependência e programação orientada a aspectos. O objetivo é tornar o desenvolvimento Java EE mais fácil e produtivo.",
-    "link": "https://spring.io/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Framework_Logo_2018.svg"
-  },
-  {
-    "nome": "Visual Basic",
+    "nome": "Python",
     "ano": 1991,
-    "descricao": "Visual Basic é uma linguagem de programação orientada a eventos e um ambiente de desenvolvimento integrado (IDE) da Microsoft. Derivado do BASIC, ele permitia o desenvolvimento rápido de aplicações com interface gráfica (GUI). Foi amplamente utilizado para criar software de desktop para Windows.",
-    "link": "https://learn.microsoft.com/en-us/dotnet/visual-basic/",
-    "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
+    "descricao": "Python é uma linguagem de programação de alto nível, interpretada, de propósito geral, conhecida por sua sintaxe clara e legibilidade de código. É amplamente utilizada em diversas áreas como desenvolvimento web, ciência de dados, inteligência artificial, automação e scripting. A linguagem suporta múltiplos paradigmas de programação, incluindo programação orientada a objetos, imperativa e funcional.",
+    "link": "https://www.python.org/",
+    "logo": "https://www.python.org/static/img/python-logo.png"
   },
   {
-    "nome": "JSON",
-    "ano": 2001,
-    "descricao": "JSON (JavaScript Object Notation) é um formato leve de intercâmbio de dados. É fácil para humanos lerem e escreverem, e fácil para máquinas analisarem e gerarem. Baseia-se em um subconjunto da linguagem de programação JavaScript, mas é completamente independente da linguagem e é amplamente utilizado para transmitir dados entre um servidor e um aplicativo web, ou entre diferentes serviços.",
-    "link": "https://www.json.org/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg"
+    "nome": "C++",
+    "ano": 1979,
+    "descricao": "C++ é uma linguagem de programação de propósito geral, poderosa e de alto desempenho, que estende a linguagem C. Ela suporta múltiplos paradigmas de programação, incluindo programação procedural, orientada a objetos e genérica. É amplamente utilizada em sistemas operacionais, desenvolvimento de jogos, sistemas embarcados e aplicações de alta performance.",
+    "link": "https://isocpp.org/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C%2B%2B_Logo.svg/1200px-C%2B%2B_Logo.svg.png"
   },
   {
-    "nome": "Scrum",
+    "nome": "Go",
+    "ano": 2009,
+    "descricao": "Go é uma linguagem de programação de código aberto desenvolvida pelo Google, focada em simplicidade, confiabilidade e eficiência. Ela é fortemente tipada e compilada, projetada para construir software robusto e de alto desempenho. Sua sintaxe concisa e recursos de concorrência integrados, como goroutines, a tornam popular para microsserviços e sistemas distribuídos.",
+    "link": "https://golang.org/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Go_logo.svg"
+  },
+  {
+    "nome": "BASIC",
+    "ano": 1964,
+    "descricao": "BASIC (Beginner's All-purpose Symbolic Instruction Code) é uma família de linguagens de programação de alto nível projetada para ser fácil de usar. Criada em 1964, foi desenvolvida para permitir que estudantes de diversas áreas usassem computadores. Teve um papel crucial na popularização da programação em computadores pessoais nos anos 70 e 80.",
+    "link": "https://en.wikipedia.org/wiki/BASIC",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BASIC_logo.svg/1200px-BASIC_logo.svg.png"
+  },
+  {
+    "nome": "Java",
     "ano": 1995,
-    "descricao": "Scrum é um framework ágil para gerenciar projetos complexos, frequentemente utilizado no desenvolvimento de software. Ele promove a colaboração, a auto-organização e a entrega iterativa e incremental de valor. É caracterizado por ciclos de trabalho de duração fixa chamados sprints, papéis definidos e eventos específicos.",
-    "link": "https://www.scrumguides.org/",
-    "logo": "https://scrumguides.org/images/logo-scrumguides3.png"
+    "descricao": "Java é uma linguagem de programação orientada a objetos de alto nível e uma plataforma de computação. Projetada para ser \"escreva uma vez, execute em qualquer lugar\" (WORA), seu código compilado pode rodar em todas as plataformas que suportam Java sem a necessidade de recompilação. É amplamente utilizada para desenvolver aplicações corporativas, mobile (Android), web e sistemas de larga escala.",
+    "link": "https://www.oracle.com/java/",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_logo_and_wordmark.svg/1200px-Java_logo_and_wordmark.svg.png"
   },
   {
-    "nome": "DataFlex",
-    "ano": 1981,
-    "descricao": "DataFlex é um ambiente de desenvolvimento rápido de aplicações (RAD) e uma linguagem de programação orientada a objetos. Ele fornece uma solução completa para a criação e implantação de aplicações desktop Windows, web e móveis. É conhecido pela sua capacidade de integrar dados e lógica de negócio de forma eficiente.",
-    "link": "https://www.dataflex.com/",
-    "logo": "https://www.dataaccess.com/img/logos/dataflex-2023-logo-blue-on-white.png"
-  },
-  {
-    "nome": "Linguagem C",
-    "ano": 1972,
-    "descricao": "C é uma linguagem de programação imperativa de propósito geral, desenvolvida por Dennis Ritchie nos Laboratórios Bell. É conhecida por sua eficiência, controle de baixo nível e portabilidade, sendo amplamente utilizada para software de sistema, sistemas operacionais e aplicações embarcadas. Sua sintaxe influenciou muitas outras linguagens populares, incluindo C++, Java e C#.",
-    "link": "https://www.iso.org",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
-  },
-  {
-    "nome": "VCLIPPING",
-    "ano": 2002,
-    "descricao": "VCLIPPING é uma empresa brasileira especializada em monitoramento de mídias e clipping. A plataforma acompanha e coleta notícias de veículos impressos, rádio, TV, internet e redes sociais, fornecendo insights valiosos sobre a exposição da marca. Seu objetivo é auxiliar empresas e profissionais na gestão de sua imagem e comunicação estratégica através da análise de conteúdo.",
-    "link": "https://www.vclipping.com.br/",
-    "logo": "https://www.vclipping.com.br/wp-content/uploads/2021/08/logo-vclipping.png"
-  },
-  {
-    "nome": "Regex",
-    "ano": 1956,
-    "descricao": "Regular Expressions (Regex) são uma poderosa sequência de caracteres que define um padrão de busca. São amplamente utilizadas em computação para correspondência de strings, operações de busca e substituição, e validação de dados em diversas linguagens de programação e editores de texto. Regex oferece uma maneira flexível e eficiente de processar e manipular texto com base em padrões complexos.",
-    "link": "https://www.regular-expressions.info/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/RegEx_icon.svg/512px-RegEx_icon.svg.png"
-  },
-  {
-    "nome": "Lisp",
-    "ano": 1958,
-    "descricao": "Lisp (LISt Processor) é uma família de linguagens de programação com uma longa história, criada em 1958 por John McCarthy. É notável por sua notação prefixa totalmente parentetizada (S-expressions) e por ter sido pioneira em conceitos como coleta de lixo e metaprogramação. É frequentemente empregada em pesquisa de inteligência artificial e computação simbólica.",
-    "link": "https://lisp-lang.org/",
-    "logo": "https://lisp-lang.org/assets/img/logo/blue.png"
-  },
-  {
-    "nome": "VBA (Visual Basic for Applications)",
+    "nome": "JavaScript",
     "ano": 1995,
-    "descricao": "VBA é uma implementação da linguagem de programação Visual Basic 6 da Microsoft, orientada a eventos. Está integrada na maioria das aplicações do Microsoft Office e de outros softwares, permitindo aos utilizadores automatizar tarefas, criar funções personalizadas e estender a funcionalidade através de macros. É amplamente utilizado para personalização e automação dentro de programas como Excel, Word e Access, melhorando a produtividade.",
-    "link": "https://learn.microsoft.com/pt-br/office/vba/library-reference/contents/visual-basic-for-applications-language-reference",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png"
+    "descricao": "JavaScript é uma linguagem de programação de alto nível, interpretada ou compilada just-in-time, multiparadigma. É mais conhecida como a linguagem de script para páginas web, tornando-as interativas e dinâmicas. No entanto, é amplamente utilizada em ambientes fora do navegador, como desenvolvimento de servidores (Node.js), aplicativos móveis e desktop.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
   },
   {
-    "nome": "Linguagem Assembly",
-    "ano": 1951,
-    "descricao": "Linguagem de programação de baixo nível que possui uma forte correspondência entre as instruções do programa e as instruções de máquina da arquitetura do computador. É usada para programar diretamente o hardware, oferecendo controle detalhado e alta performance. Sua aplicação é comum em sistemas operacionais, drivers de dispositivo e otimização crítica de código.",
-    "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Assembly_Syntax.svg/512px-Assembly_Syntax.svg.png"
+    "nome": "TypeScript",
+    "ano": 2012,
+    "descricao": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático de JavaScript que adiciona tipagem estática opcional, compilando para JavaScript puro. Ele melhora a qualidade do código, a produtividade e a detecção de erros em tempo de desenvolvimento para aplicações JavaScript em larga escala.",
+    "link": "https://www.typescriptlang.org/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
   },
   {
-    "nome": "Android",
-    "ano": 2007,
-    "descricao": "Android é um sistema operacional móvel desenvolvido pelo Google, baseado em uma versão modificada do kernel Linux. É projetado principalmente para dispositivos móveis com tela sensível ao toque, como smartphones e tablets, mas também alimenta TVs, smartwatches e carros. Sua natureza de código aberto e vasto ecossistema de aplicativos o tornam o sistema operacional móvel mais usado globalmente.",
-    "link": "https://www.android.com/",
-    "logo": "https://www.gstatic.com/marketing-cms/assets/images/1a/9f/7bba006e49de847508df3a4a7b93/andriod-full-body.webp=s48-fcrop64=1,00000000ffffffff-rw"
+    "nome": "PostgreSQL",
+    "ano": 1996,
+    "descricao": "PostgreSQL é um poderoso sistema de gerenciamento de banco de dados relacional de objeto (ORDBMS) de código aberto e gratuito. Ele é conhecido por sua robustez, conjunto de recursos avançados, escalabilidade e conformidade com padrões SQL. Amplamente utilizado em aplicações web, sistemas de data warehousing e como banco de dados principal para muitos produtos e soluções.",
+    "link": "https://www.postgresql.org/",
+    "logo": "https://www.postgresql.org/media/img/postgresql-logo.png"
   },
   {
-    "nome": "Next.js",
+    "nome": "Design Sprint (Google Ventures)",
     "ano": 2016,
-    "descricao": "Next.js é um framework React de código aberto que permite aos desenvolvedores construir aplicações web full-stack de alto desempenho. Ele suporta renderização no lado do servidor (SSR), geração de site estático (SSG), e rotas de API, otimizando tanto a experiência do usuário quanto o SEO. Desenvolvido pela Vercel, simplifica a criação de aplicações escaláveis e rápidas.",
-    "link": "https://nextjs.org/",
-    "logo": "https://assets.vercel.com/image/upload/v1607554382/nextjs/nextjs-logo.png"
+    "descricao": "O Design Sprint é uma metodologia intensiva de cinco dias, desenvolvida pelo Google Ventures, para responder a questões críticas de negócios através de design, prototipagem e teste de ideias com usuários. Ele permite que equipes validem rapidamente conceitos e resolvam grandes problemas. O principal objetivo é reduzir o risco de desenvolver produtos que ninguém quer ou precisa.",
+    "link": "https://www.gv.com/sprint/",
+    "logo": "https://www.gv.com/sprint/wp-content/uploads/2016/03/sprint-book.png"
   },
   {
-    "nome": "Firebase",
-    "ano": 2011,
-    "descricao": "Firebase é uma plataforma de desenvolvimento de aplicativos móveis e web fornecida pelo Google. Ela oferece um conjunto de serviços backend como autenticação, bancos de dados em tempo real, armazenamento em nuvem e hospedagem, facilitando a construção de aplicativos robustos. Com Firebase, desenvolvedores podem criar e escalar apps rapidamente sem gerenciar infraestrutura de servidor.",
-    "link": "https://firebase.google.com/",
-    "logo": "https://www.gstatic.com/marketing-cms/assets/images/a9/1b/3f13894548fa8d367af8a56b5634/firebase.webp=s48-fcrop64=1,00000000ffffffff-rw"
-  },
-  {
-    "nome": "Flutter",
-    "ano": 2017,
-    "descricao": "Flutter é um kit de desenvolvimento de software (SDK) de UI de código aberto criado pelo Google. Ele permite construir aplicativos compilados nativamente para dispositivos móveis, web e desktop a partir de uma única base de código. Utiliza a linguagem de programação Dart e é conhecido por seu rápido desenvolvimento e interfaces de usuário expressivas.",
-    "link": "https://flutter.dev/",
-    "logo": "https://www.gstatic.com/marketing-cms/assets/images/66/f3/e377e4304ed58a8e3d386a3067bd/flutter.webp=s48-fcrop64=1,00000000ffffffff-rw"
-  },
-  {
-    "nome": "Gemini",
-    "ano": 2023,
-    "descricao": "Gemini é uma família de modelos de inteligência artificial multimodal desenvolvidos pelo Google AI. Ele foi projetado para compreender e operar através de diferentes tipos de informação, incluindo texto, código, áudio, imagem e vídeo. Gemini alimenta vários produtos Google e está disponível para desenvolvedores e empresas através do Vertex AI.",
-    "link": "https://deepmind.google/technologies/gemini/",
-    "logo": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/google-gemini-924j3051o55m98g4rwehj.png/google-gemini-fjwerd7ldxwt4c010vyoh.png?_a=DATAg1AAZAA0"
-  },
-  {
-    "nome": "ChatGPT",
-    "ano": 2022,
-    "descricao": "ChatGPT é um chatbot desenvolvido pela OpenAI, baseado em modelos de linguagem grandes (LLMs). Ele é treinado para conversar e realizar tarefas como responder perguntas, escrever textos, traduzir e resumir informações. Sua interface conversacional o tornou acessível e popular para uma vasta gama de aplicações.",
-    "link": "https://openai.com/chatgpt",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+    "nome": "Node.js",
+    "ano": 2009,
+    "descricao": "Node.js é um ambiente de execução JavaScript open-source e cross-platform, que permite aos desenvolvedores executar código JavaScript no lado do servidor, fora de um navegador web. Ele é amplamente utilizado para construir aplicações de rede escaláveis, APIs RESTful e serviços de backend em tempo real. Sua arquitetura assíncrona e orientada a eventos o torna eficiente para lidar com muitas conexões simultâneas.",
+    "link": "https://nodejs.org/",
+    "logo": "https://nodejs.org/static/images/logo.svg"
   },
   {
     "nome": "Power BI",
     "ano": 2015,
-    "descricao": "Power BI é uma suíte de ferramentas de business intelligence da Microsoft que permite aos usuários conectar-se a diversas fontes de dados, transformá-los e criar visualizações interativas e relatórios dinâmicos. Ele oferece recursos robustos para análise de dados e compartilhamento de insights, facilitando a tomada de decisões. É amplamente utilizado para construir dashboards e análises self-service em organizações de todos os tamanhos.",
+    "descricao": "Power BI é uma ferramenta de business intelligence da Microsoft que permite aos usuários visualizar dados e criar relatórios interativos. Ele se conecta a diversas fontes de dados, transformando-os em informações significativas. Com o Power BI, é possível compartilhar insights e tomar decisões baseadas em dados de forma eficiente.",
     "link": "https://powerbi.microsoft.com/",
-    "logo": "https://powerbi.microsoft.com/pictures/shared/social/social-default-image.png"
+    "logo": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWJ3d5?ver=0b7e"
   }
 ]

@@ -17,8 +17,9 @@ async function iniciarBusca() {
 
     // Filtra os dados com base no termo de busca
     if (termoBusca === "*") {
-      // Se o termo for "*", exibe todos os itens
-      exibirResultados(dados);
+      // Se o termo for "*", ordena por nome e exibe todos os itens
+      const dadosOrdenados = dados.sort((a, b) => a.nome.localeCompare(b.nome));
+      exibirResultados(dadosOrdenados);
       return;
     }
 
@@ -54,7 +55,7 @@ function exibirResultados(resultados, geradoPorIA = false) {
 
   resultados.forEach((item) => {
     const card = document.createElement("article");
-    card.className = "card";
+    card.className = "card"; // Garante que a classe 'card' seja aplicada
 
     // Estrutura do card com logo e conteúdo de texto
     card.innerHTML = `
@@ -63,12 +64,14 @@ function exibirResultados(resultados, geradoPorIA = false) {
           ? `<div class="card-logo-container"><img src="${item.logo}" alt="Logo de ${item.nome}" class="card-logo"></div>`
           : ""
       }
-      <div class="card-text-content">
-        <h2>${item.nome} ${
+      <div class="card-content">
+        <div class="card-text-content">
+          <h2>${item.nome} ${
       geradoPorIA ? '<span class="ai-badge">(Gerado por IA)</span>' : ""
     }</h2>
-        <p><strong>Ano de criação:</strong> ${item.ano || "Não informado"}</p>
-        <p>${item.descricao}</p>
+          <p><strong>Ano de criação:</strong> ${item.ano || "Não informado"}</p>
+          <p>${item.descricao}</p>
+        </div>
         <a href="${item.link || "#"}" target="_blank">Saiba mais...</a>
       </div>
     `;

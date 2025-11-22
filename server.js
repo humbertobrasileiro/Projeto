@@ -50,7 +50,7 @@ app.post("/api/buscar-ia", async (req, res) => {
   const prompt = `
     Consulte sobre a tecnologia chamada "${termo}". 
     Retorne sua resposta EXATAMENTE no formato JSON contendo as chaves "nome", "ano" (o ano de criação como um número), 
-    "descricao" (uma descrição concisa de até 3 frases), "link" (o link para o site oficial) e "logo" (a logo da tecnologia). 
+    "descricao" (uma descrição concisa de até 3 frases), "link" (o link para o site oficial) e "logo" (a logo da tecnologia que é uma URL da imagem). 
     Se não souber ou não for uma tecnologia, retorne um JSON com a chave "erro".
   `;
 
